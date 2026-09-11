@@ -1,0 +1,55 @@
+## Visual Studio User Build Files
+*.user
+*.userosscache
+*.sln.docstates
+
+## Build Outputs
+[Db]in/
+[Oo]bj/
+[Ll]og/
+[Tt]est[Rr]esults/
+
+## OMT/Visual Studio junk
+Artifacts/
+Visual Studio 2015/
+Visual Studio 2017/
+Visual Studio 2019/
+Visual Studio 2022/
+.vs/
+
+## Secrets & Local Configuration (Crucial para Web Apps)
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+appsettings.Development.json
+appsettings.Local.json
+*.pem
+*.pfx
+
+## Rider & JetBrains IDEs
+.idea/
+*.sln.iml
+
+## Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+## Package Management (NuGet & Node/NPM)
+project.lock.json
+project.fragment.lock.json
+artifacts/
+**/packages/
+!**/packages/repositories.config
+nuget.config
+node_modules/
+/wwwroot/lib/
+
+## OS junk files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
